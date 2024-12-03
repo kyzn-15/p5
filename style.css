@@ -360,6 +360,11 @@ section.anggota {
     margin-top:5rem;
 }
 
+section.anggota h1.heading{
+    margin: 0px auto;
+    text-align: center;
+}
+
 div.header h1 {
     display: flex;
     justify-content: center;
@@ -500,6 +505,19 @@ div.genap#end {
     .projects-card .projects-desc{
         width: 70vw;
     }
+
+    section.anggota div.top {
+        width: 70vw;
+        height: auto;
+    }
+    h2.subheading {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    div.content {
+        margin-left: 0;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width : 850px){
@@ -512,139 +530,26 @@ div.genap#end {
         width: 80vw;
     }
 
-    section.anggota div.top {
-        width: 80vw;
+    section.anggota div.ganjil, 
+    section.anggota div.genap {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
-
-    section.anggota div.ganjil #gambar-1 {
-        height: 12rem;
-        width: 12rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
-        margin-left: rem;
-    }
-        
-    
-    section.anggota div.genap #gambar-2 {
-        height: 12rem;
-        width: 12rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
-    }
-    section.anggota div.ganjil #gambar-3 {
-        height: 12rem;
-        width: 12rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
-    }
-    section.anggota div.genap #gambar-4 {
-        height: 12rem;
-        width: 12rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
-    }
-    section.anggota div.ganjil #gambar-5 {
-        height: 12rem;
-        width: 12rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
-    }
+    section.anggota div.ganjil #gambar-1,
+    section.anggota div.genap #gambar-2,
+    section.anggota div.ganjil #gambar-3,
+    section.anggota div.genap #gambar-4,
+    section.anggota div.ganjil #gambar-5,
     section.anggota div.genap #gambar-6 {
-        height: 12rem;
-        width: 12rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
+        height: 10rem;
+        width: 10rem;
+        margin-bottom: 1.5rem;
     }
 }
 
 @media screen and (max-width : 740px){
-    section.anggota div.ganjil #gambar-1 {
-        height: 15rem;
-        width: 15rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
-        margin-left: rem;
-    }
-        
     
-    section.anggota div.genap #gambar-2 {
-        height: 15rem;
-        width: 15rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
-    }
-    section.anggota div.ganjil #gambar-3 {
-        height: 15rem;
-        width: 15rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
-    }
-    section.anggota div.genap #gambar-4 {
-        height: 15rem;
-        width: 15rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
-    }
-    section.anggota div.ganjil #gambar-5 {
-        height: 15rem;
-        width: 15rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
-    }
-    section.anggota div.genap #gambar-6 {
-        height: 15rem;
-        width: 15rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
-    }
 }
 @media screen and (max-width : 590px){
     section.hero{
@@ -696,68 +601,15 @@ div.genap#end {
         font-size: 2rem;
     }
 
-    section.anggota div.ganjil #gambar-1 {
-        height: 15rem;
-        width: 15rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
-        margin-left: rem;
+    section.anggota div.top {
+        width: 90vw;
+        height: auto;
     }
-        
-    
-    section.anggota div.genap #gambar-2 {
-        height: 15rem;
-        width: 15rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
+    h2.subheading {
+        font-size: 2rem;
     }
-    section.anggota div.ganjil #gambar-3 {
-        height: 15rem;
-        width: 15rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
-    }
-    section.anggota div.genap #gambar-4 {
-        height: 15rem;
-        width: 15rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
-    }
-    section.anggota div.ganjil #gambar-5 {
-        height: 15rem;
-        width: 15rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
-    }
-    section.anggota div.genap #gambar-6 {
-        height: 15rem;
-        width: 15rem;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        background-color: gray;
-        background-position: center;
-        background-size: cover;
-
+    div.content {
+        font-size: 1rem;
     }
 
 }
